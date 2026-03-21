@@ -4,24 +4,10 @@ import towel from '../assets/towel.png';
 import romper from '../assets/romper.png';
 import tshirt from '../assets/tshirt.png';
 
+import testimonialsData from '../data/testimonials.json';
+
 const PRODUCTS = [towel, romper, tshirt, towel, romper, tshirt]; // Repeat for seamless loop
-const TESTIMONIALS = [
-  {
-    name: "Sarah J.",
-    text: "The baby rompers are incredibly soft! My little one loves them.",
-    rating: 5
-  },
-  {
-    name: "Michael T.",
-    text: "Bought a set of towels and I am amazed by the quality. Super absorbent.",
-    rating: 5
-  },
-  {
-    name: "Emily R.",
-    text: "The t-shirt fit is perfect and the fabric feels so premium. Will buy again!",
-    rating: 5
-  }
-];
+const TESTIMONIALS = testimonialsData.testimonials;
 
 export default function Collections() {
   return (
