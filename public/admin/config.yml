@@ -2,7 +2,15 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-local_backend: true
+# npx decap-server to start the local server
+# http://localhost:5173/admin/index.html to test locally
+# uncomment the local_backend section to use the local server
+
+# local_backend:
+#   url: http://localhost:8081/api/v1
+
+media_folder: "public/images"
+public_folder: "/images"
 
 collections:
   - name: "products"

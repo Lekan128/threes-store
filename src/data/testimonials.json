@@ -14,6 +14,11 @@
       "name": "Emily R.",
       "text": "The t-shirt fit is perfect and the fabric feels so premium. Will buy again!",
       "rating": 5
+    },
+    {
+      "name": "John",
+      "text": "Exceptional customer service!",
+      "rating": 4
     }
   ]
 }
