@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: dev/testCMS # Branch to update (optional; defaults to master)
+# change branch to main when deploying to production
 
 # npx decap-server to start the local server
 # http://localhost:5173/admin/index.html to test locally
